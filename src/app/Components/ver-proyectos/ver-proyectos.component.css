@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oswald";
+    color:white;
+  }
+  p {
+    color: white;
+  }
+  .body {
+  background-color: #0c1c24;
+  font-family: "Open Sans";
+  }
+  .ColorSecund {
+    background-color: #112438;
+    color: white;
+    }
+    
+    /*Crear una publicación*/
+.CreatePublic {
+    margin-top: 10%;
+    width: 90%;
+    height: 80px;
+    margin-left: 5%;
+    -webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+}
+.w3-input {
+    width: 130%;
+    background-color: #0c1c24;
+    color: white;
+    margin-top: 7%;
+    margin-left: 5%;
+    -webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+
+}
+.UpPhoto {
+    margin-left: 25%;
+    margin-top: 2.5%;
+}
+.UpDocument {
+    margin-top: 5%;
+}
+
+.float-left{
+    float: left;
+    
+}
+.icon {
+    width: 40px;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+ /*informacion de usuario y filtros de busquedad de proyectos*/
+ .InfparaUser {
+     width: 90%;
+     margin-left: 5%;
+     margin-top: 30%;  
+    -webkit-border-radius: 5px 10px;  /* Safari  */
+    -moz-border-radius: 5px 10px;     /* Firefox */
+     text-align: center;
+ }
+ .photoPerfil {
+     border-radius: 50%;
+     
+ }

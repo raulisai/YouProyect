@@ -1,0 +1,214 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+
+<div class="body">
+
+<!-- Navbar -->
+<app-banner></app-banner>
+    
+
+  <div class="w3-content" style="max-width:1600px">
+  
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-48 ">
+      <h1 class="w3-xxxlarge"><b>Monkey D. Luffy</b></h1>
+      <h6>Welcome a you Perfil <span class="w3-tag">Cambiar nombre</span></h6>
+    </header>
+  
+    <!-- Image header -->
+    <header class="w3-display-container w3-wide" id="home">
+      <img class="w3-image" src="../../../../assets/proyectoempresarial_principal.jpg" alt="Fashion Blog" width="1600" height="1060">
+      <div class="w3-display-left w3-padding-large">
+        <h1 class="w3-text-white">Estos son </h1>
+        <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>MIS PROYECTOS</b></h1>
+        <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Contactar</button></h6>
+      </div>
+      <div class="w3-display-right">
+          <!-- proyecto principal-->
+        <div class="blog-card spring-fever">
+            <div class="title-content">
+              <h3>Red social de Proyectos</h3>
+              <hr />
+              <div class="intro">Se crear una pagina web en la cual sera una red social en la cual buscar personas las cuales te puedan ayudar a terminarlo.</div>
+            </div><!-- /.title-content -->
+            <div class="card-info">
+              Cuatro participantes 
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+              <ul class="utility-list">
+                <li class="comments">50%</li>
+                <li class="date"> InicioProy: 10.02.2020</li>
+              </ul>
+            </div><!-- /.utility-info -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+          </div><!-- /.blog-card -->  
+
+          <!-- proyecto 2° -->
+          <div class="blog-card2 blog-card spring-fever">
+            <div class="title-content">
+              <h3>Empresa de Novedades</h3>
+              <hr />
+              <div class="intro">Se reliza una empresa con enfoque a creacion de una marca dedicada a los universitacion realizando diseños.</div>
+            </div><!-- /.title-content -->
+            <div class="card-info">            
+
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+              <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">03.12.2015</li>
+              </ul>
+            </div><!-- /.utility-info -->
+            <!-- overlays -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+          </div><!-- /.blog-card -->  
+    </div>
+    </header>
+  
+    <!-- Grid -->
+    <div class="w3-row w3-padding w3-border">
+  
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+      <app-publicaciones></app-publicaciones>
+      <!-- END BLOG ENTRIES -->
+      </div>
+  
+      <!-- About/Information menu -->
+      <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-margin divInf">
+          <img src="./../../../../assets/avatarFotPerfil.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+          <div class="w3-container ColorSecund">
+            <h4>Monkey D.Luffy</h4>
+            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+          </div>
+        </div>
+        
+  
+        <!-- Tags Intereses -->
+        <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Intereses</h4>
+          </div>
+          <div class="w3-container">
+            <p>
+              <span class="w3-tag ColorSecund w3-margin-bottom">E-comerce</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tecnologia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Programación</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ingenieria</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Musica</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Desarrollo de software</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Diseño Grafico</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+              <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Matematicas</span>
+            </p>
+          </div>
+        </div>
+      <!--informacion-->
+        <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Information</h4>
+          </div>
+          <div class="detalles">
+            <img class="icon" src="../../../../assets/icon/Home.ico" alt=""><h4>Vive en <span>CDMX</span> </h4>
+            <img class="icon" src="../../../../assets/icon/education-hat-school.svg" alt=""><h4>Estudio en <span>Instituto politecnico Nacional</span></h4>
+          </div>
+         
+        </div>
+        <!-- HABILIDADES -->
+        <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Habilidades</h4>
+          </div>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"> Programación 55%</div>
+         </div>
+         <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Diseño Grafico 25%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">Musica 15%</div>
+        </div>
+         <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Algoritmos 95%</div>
+</div>
+        </div>
+        
+         <!-- Programas  -->
+         <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Programas</h4>
+          </div>
+          <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"> Programación 55%</div>
+         </div>
+         <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Diseño Grafico 25%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">Musica 15%</div>
+        </div>
+         <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Algoritmos 95%</div>
+</div>
+        </div>
+  
+        <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Seguirme en otras redes</h4>
+          </div>
+          <div class="w3-container w3-xlarge w3-padding">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </div>
+        </div>
+      
+        
+        <!-- Dejar tu correo -->
+        <div class="w3-margin divInf">
+          <div class="w3-container w3-padding ColorSecund">
+            <h4>Mandar Correo de contacto</h4>
+          </div>
+          <div class="w3-container">
+            <p>Se enviara tu perfil junto con el mensaje.</p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+            <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Enviar</button></p>
+          </div>
+        </div>
+  
+      <!-- END About/Intro Menu -->
+      </div>
+  
+    <!-- END GRID -->
+    </div>
+  
+  <!-- END w3-content -->
+  </div>
+  
+  <!-- Subscribe Modal -->
+  <div id="subscribe" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content" style="padding:32px">
+      <div class="w3-container w3-white">
+        <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+        <h2 class="w3-wide">Mensaje</h2>
+        <p>Se enviara tu perfil junto con el mensaje.</p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Enter Message"></p>
+        <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Enviar</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-container ColorSecund" style="padding:32px">
+    <a href="#" class="w3-button ColorSecund w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Powered by <a href="" target="_blank">RIMR</a></p>
+  </footer>
+
+</div>
+

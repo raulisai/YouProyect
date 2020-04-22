@@ -1,0 +1,23 @@
+/*barra de bsuqueda */
+
+  
+.form-inline {
+
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.btn-outline-success{
+    margin-left: 20px;
+}
+
+.form-control {
+
+    width: 424.5px !important;
+    margin-top: 6px;
+}
+.ColorSecund {
+    background-color: #112438;
+    color: white;
+    }
